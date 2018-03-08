@@ -1,0 +1,17 @@
+###########################################################################
+# This is the config file for the ProjectWattpad Application. It contains the 
+# twitter keys for the Wattpad api and other configuration parameters used 
+# by the scripts
+###########################################################################
+
+author:
+  name: Rupali Mayekar
+  
+project:
+  name: Project Wattpad
+  language: python
+
+keys:
+  # Wattpad API Keys generated for the app
+  API_KEY : ENTER_YOUR_API_KEY_HERE
+  SECRET : ENTER_YOUR_SECRET_HERE
