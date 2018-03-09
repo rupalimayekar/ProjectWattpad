@@ -9,9 +9,14 @@ Luke Pharr
 Using the public data api for WattPad, we will look at a variety of trends for story tags including story popularity, length, published languages. 
 
 ### Questions to Answer:
-* Which genres/stories are most popular based on read count, vote count, comment count and creation date?
-* Does length of story correlate to read count? 
-* Languages Published vs Genre and Popularity - Are all books published everywhere? Read count vs. Number of languagues (per genre,per story)
+* Which genres/stories are most popular based on read count, vote count, comment count?
+* Number of stories created each year? Use creation date
+* Average time to finish a story? Search for completed stories, take difference between modify and create date.
+* Average number of parts per story (for completed stories)?
+* What are the most popular categories? 
+* What are the most popular languages? 
+* Does length of read count correlate to a certain story length? Does read count correlate to number of parts per story?
+* Sentiment Analysis of Description
 
 ### Data Sources: 
 Wattpad Developer API - wattpad.com
