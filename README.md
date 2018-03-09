@@ -1,6 +1,6 @@
 # Project Proposal
 ### 1. Project Title: ProjectWattpad
-<img "
+
 ### 2. Team Members: 
 Andrea Karaffa - 
 Rupali Mayekar - Team Lead
