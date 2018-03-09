@@ -19,6 +19,7 @@ Using the public data api for WattPad, we will look at a variety of trends for s
 6. What are the most popular languages? 
 7. Does length of read count correlate to a certain story length? Does read count correlate to number of parts per story?
 8. Sentiment Analysis of Description
+9. Average popularity by story rating (true or false).
 
 ### 5. Data Sources: 
 Wattpad Developer API - wattpad.com
