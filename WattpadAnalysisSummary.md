@@ -52,7 +52,7 @@ Initially the data that we recieved from the API seemed limited, did not have st
 * The API has a cap on the number of stories it gives us. We could only pull about 1400 stories when Wattpad has millions.
 
 ## Cleaning the Data
-
+The first step was to take all the csv files, one from each day we pulled data, plus the data filtered for "new", and consolidate them into one csv. Next, all duplicates were removed. This data was then prepped for visualization by removing blanks and 'NaN' values.
 
 ## Creating the plots
 We attempted to create the following plots:
