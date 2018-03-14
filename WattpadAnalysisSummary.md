@@ -30,11 +30,11 @@ Wattpad provides an API to get insight into the data they are generating. We dec
 8. Sentiment Analysis of Description
 9. Average popularity by story rating (true or false).
 
-### Getting the Data
-The Wattpad API is still in under development so it provides very limitted ways to get to the data. The major content of the data is referred to as ```stories```. Wattpad users create stories and each story can have multiple chapters/parts. Stories are written in different languages and are categorized into Categories. The API returned the data in json format. There are 3 main sets of information we were able to retrieve from the API
+## Getting the Data
+The Wattpad API is still in under development so it provides very limited ways to get to the data. The major content of the data is referred to as ```stories```. Wattpad users create stories and each story can have multiple chapters/parts. Stories are written in different languages and are categorized into Categories. The API returns json data. There are 3 main sets of information we were able to retrieve from the API:
 
 ### Stories
-After playing around with the API a lot we were able to get some amount of story data in json format. We pulled this json data and dumped it raw into a csv file.
+This endpoint contains the bulk of the data. As the API is still in beta, results seemed random and upredictable. Our api call aimed for 100 pages of 100 stories each, but the most we could get was roughly 1400 at a time. The results change daily, and and only cover a few of the 24 possible genres. To counteract this, we ran the search for only "new" stories, which gave us a much more diverse dataset. We pulled this json data and dumped it into a csv file.
 
 ### Categories
 The categories are simply an id-name list of story categories in json format. We got these two columns and created a csv file with the categories.
@@ -42,18 +42,19 @@ The categories are simply an id-name list of story categories in json format. We
 ### Languages
 The languages are a simple list of id-name list of Languages. We got these two columns and created a csv file with the languages.
 
-Initially the data that we recieved from the API seemed limitted, did not have stories in multiple categories and languages but by making repeated calls modifying the filter parameters, we were able to get stories in multiple categories. 
+### Conclusion on the API
+Initially the data that we recieved from the API seemed limited, did not have stories in multiple categories and languages but by making repeated calls modifying the filter parameters, we were able to get stories in multiple categories. 
 
 ### Limitations:
 * The api does not provide any user data
 * The story data does not represent a good sample of all the stories in Wattpad
 * The stories were mainly in English. We did not get stories in other languages
-* The API has a cap on the number of stories it gives us. We could only pull about 1500 stories when Wattpad has millions.
+* The API has a cap on the number of stories it gives us. We could only pull about 1400 stories when Wattpad has millions.
 
-### Cleaning the Data
-The next step was to clean all the data. The story json had nested jsons for the story parts. The csv was not usable as is, so we had to remove some rows and columns to get a clean stories csv. We then merged this with the categories csv to merge the categories with the stories so that we had a category name for each story.
+## Cleaning the Data
 
-### Creating the plots
+
+## Creating the plots
 We attempted to create the following plots:
 
 #### Story Trends by year
