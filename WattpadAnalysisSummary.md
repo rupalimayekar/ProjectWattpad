@@ -125,13 +125,14 @@ We did a sentiment analysis on story tags and story desctiptions and compared th
 ![tag_sent_v_desc_sent](Images/tag_sent_v_desc_sent.png)
 
 ### Q9 - Average popularity by story rating (true or false)
-Story rankings are based on an algorithm that is very complex and changes all the time. In the most basic terms, a story’s ranking is determined by the strength of recent support in the community. The more support a story receives, the higher its hotness will be during this time. If the support for the story trails off over time, its ranking will decrease. 
+"Story rankings are based on an algorithm that is very complex and changes all the time. In the most basic terms, a story’s ranking is determined by the strength of recent support in the community. The more support a story receives, the higher its hotness will be during this time. If the support for the story trails off over time, its ranking will decrease." 
+[*See Story Ranking by Stephanie*](https://support.wattpad.com/hc/en-us/articles/201410220-See-Story-Ranking)
 
 We explored the relationship of these rankings (story rating in the data) with the average votes
 
 ![Ratings Distribution](Images/Ratings%20Distribution.png)
 
-![Popularity_ratings](Images/Popularity_ratings.png)
+![Popularity_ratings](Images/Ratings by Average Vote Count.png)
 
 ### Conclusion
 In general it appears that a lot of people like to read and write content online. The favourite types of stories were Romance/love and Fanfiction. The number of stories are increasing each year. There are more short stories and the shorter ones seem to be read more. The description sentiment is more likely to represent the story. Wattpad gives a story a higher rating based on its popularity.  
