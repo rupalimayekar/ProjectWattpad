@@ -76,7 +76,7 @@ Since our initial data did not have stories in different categories, we looked a
 
 ![tag_distribution_pie](Images/tag_distribution_pie.png)
 
-#### Story populaarity by Tags
+#### Story popularity by Tags
 We gathered the readCount (how many times a story was read), commentCount (How many comments a story got) and voteCount (How many votes a story got) for all the stories divided by categories as well as tags. The results showed that in both scenarios, Romace/Love and Fanfiction were the most popular types of stories. Here is one of the analysis:
 
 ![popularity_tags_by_votes](Images/popularity_tags_by_votes.png)
@@ -89,9 +89,9 @@ Provides insight into number of stories per year since Wattpad was launched
 
 ### Q3 - Average time to finish a story? Search for completed stories, take difference between modify and create date.
 
-* Average days to complete story post is 244 days
-* Average number of chapters in a story is 12
-* Average number of words in a story is 75,265
+* Average days to complete story post is 167 days
+* Average number of chapters in a story is 19 chapters
+* Average number of words in a story is 59,780 words
 
 ### Q4 - Average number of parts per story (for completed stories)?
 
