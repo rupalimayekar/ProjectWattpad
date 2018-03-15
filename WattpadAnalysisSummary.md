@@ -3,9 +3,12 @@
 ![WattpadLogo](Images/Wattpad_Logo_Orange.png)
 ![WattpadTheme](Images/Wattpad_theme.png)
 
-Wattpad takes everything you love about storytelling, and turns it into a social, on-the-go experience. The result is a one-of-a-kind adventure in creation and discovery of stories. In a world of 7-second attention spans, people everywhere still long to be immersed in content that matters to them. The Wattpad community collectively spends an incredible 15 billion minutes each month using Wattpad. Wattpad gives people from around the world access to an audience of millions, and connects them with content they can’t find anywhere else.
+"Wattpad takes everything you love about storytelling, and turns it into a social, on-the-go experience. The result is a one-of-a-kind adventure in creation and discovery of stories. Today, the global Wattpad community is made up of more than 65 million people. We’re proudly based in Toronto, Canada, but Wattpad stories transcend borders, interests, and language."
 
-Today, the global Wattpad community is made up of more than 65 million people. The company based in Toronto, Canada, but Wattpad stories transcend borders, interests, and language.
+"In a world of 7-second attention spans, people everywhere still long to be immersed in content that matters to them. The Wattpad community collectively spends an incredible 15 billion minutes each month using Wattpad. Wattpad gives people from around the world access to an audience of millions, and connects them with content they can’t find anywhere else."
+[*Wattpad.com*](https://www.wattpad.com/about/)
+
+
 
 ## Project Team:
 * Rupali Mayekar
@@ -55,7 +58,7 @@ Initially the data that we recieved from the API seemed limited, did not have st
 The first step was to take all the csv files, one from each day we pulled data, plus the data filtered for "new", and consolidate them into one csv. Next, all duplicates were removed. This data was then prepped for visualization by removing blanks and 'NaN' values.
 
 ## Creating the plots
-We attempted to create the following plots:
+We created the following plots with the available data:
 
 ### Q1 - Mean story popularity by category by read count, vote count, comment count?
 
@@ -73,7 +76,7 @@ Since our initial data did not have stories in different categories, we looked a
 
 ![tag_distribution_pie](Images/tag_distribution_pie.png)
 
-#### Story populaarity by Tags
+#### Story popularity by Tags
 We gathered the readCount (how many times a story was read), commentCount (How many comments a story got) and voteCount (How many votes a story got) for all the stories divided by categories as well as tags. The results showed that in both scenarios, Romace/Love and Fanfiction were the most popular types of stories. Here is one of the analysis:
 
 ![popularity_tags_by_votes](Images/popularity_tags_by_votes.png)
@@ -86,9 +89,9 @@ Provides insight into number of stories per year since Wattpad was launched
 
 ### Q3 - Average time to finish a story? Search for completed stories, take difference between modify and create date.
 
-* Average days to complete story post is 244 days
-* Average number of chapters in a story is 12
-* Average number of words in a story is 75,265
+* Average days to complete story post is 167 days
+* Average number of chapters in a story is 19 chapters
+* Average number of words in a story is 59,780 words
 
 ### Q4 - Average number of parts per story (for completed stories)?
 
@@ -122,13 +125,14 @@ We did a sentiment analysis on story tags and story desctiptions and compared th
 ![tag_sent_v_desc_sent](Images/tag_sent_v_desc_sent.png)
 
 ### Q9 - Average popularity by story rating (true or false)
-Story rankings are based on an algorithm that is very complex and changes all the time. In the most basic terms, a story’s ranking is determined by the strength of recent support in the community. The more support a story receives, the higher its hotness will be during this time. If the support for the story trails off over time, its ranking will decrease. 
+"Story rankings are based on an algorithm that is very complex and changes all the time. In the most basic terms, a story’s ranking is determined by the strength of recent support in the community. The more support a story receives, the higher its hotness will be during this time. If the support for the story trails off over time, its ranking will decrease." 
+[*See Story Ranking by Stephanie*](https://support.wattpad.com/hc/en-us/articles/201410220-See-Story-Ranking)
 
 We explored the relationship of these rankings (story rating in the data) with the average votes
 
 ![Ratings Distribution](Images/Ratings%20Distribution.png)
 
-![Popularity_ratings](Images/Popularity_ratings.png)
+![Popularity_ratings](Images/Ratings%20by%20Average%20Vote%20Count.png)
 
 ### Conclusion
 In general it appears that a lot of people like to read and write content online. The favourite types of stories were Romance/love and Fanfiction. The number of stories are increasing each year. There are more short stories and the shorter ones seem to be read more. The description sentiment is more likely to represent the story. Wattpad gives a story a higher rating based on its popularity.  

@@ -2,10 +2,10 @@
 ### 1. Project Title: ProjectWattpad
 
 ### 2. Team Members: 
-Andrea Karaffa - 
-Rupali Mayekar - Team Lead
-David Richter - 
-Luke Pharr - Scrum Master
+* Andrea Karaffa 
+* Rupali Mayekar
+* David Richter 
+* Luke Pharr
 
 ### 3. Description: 
 Using the public data api for WattPad, we will look at a variety of trends for story tags including story popularity, length, published languages. 
