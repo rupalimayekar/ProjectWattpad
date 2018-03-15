@@ -132,7 +132,7 @@ We explored the relationship of these rankings (story rating in the data) with t
 
 ![Ratings Distribution](Images/Ratings%20Distribution.png)
 
-![Popularity_ratings](Images/Ratings by Average Vote Count.png)
+![Popularity_ratings](Images/Ratings%20by%20Average%20Vote%20Count.png)
 
 ### Conclusion
 In general it appears that a lot of people like to read and write content online. The favourite types of stories were Romance/love and Fanfiction. The number of stories are increasing each year. There are more short stories and the shorter ones seem to be read more. The description sentiment is more likely to represent the story. Wattpad gives a story a higher rating based on its popularity.  
