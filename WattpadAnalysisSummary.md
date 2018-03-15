@@ -86,12 +86,9 @@ Provides insight into number of stories per year since Wattpad was launched
 
 ### Q3 - Average time to finish a story? Search for completed stories, take difference between modify and create date.
 
-Average days to complete story post is 244 days
-Average number of chapters in a story is 12
-Average number of words in a story is 75,265
-
-
-![Stories_Created_by_Year](Images/Stories_Created_by_Year.png)
+* Average days to complete story post is 244 days
+* Average number of chapters in a story is 12
+* Average number of words in a story is 75,265
 
 ### Q4 - Average number of parts per story (for completed stories)?
 
@@ -129,7 +126,7 @@ Story rankings are based on an algorithm that is very complex and changes all th
 
 We explored the relationship of these rankings (story rating in the data) with the average votes
 
-![Ratings Distribution](Images/Ratings Distribution.png)
+![Ratings Distribution](Images/Ratings%20Distribution.png)
 
 ![Popularity_ratings](Images/Popularity_ratings.png)
 
