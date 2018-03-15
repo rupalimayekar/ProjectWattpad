@@ -3,9 +3,12 @@
 ![WattpadLogo](Images/Wattpad_Logo_Orange.png)
 ![WattpadTheme](Images/Wattpad_theme.png)
 
-Wattpad takes everything you love about storytelling, and turns it into a social, on-the-go experience. The result is a one-of-a-kind adventure in creation and discovery of stories. In a world of 7-second attention spans, people everywhere still long to be immersed in content that matters to them. The Wattpad community collectively spends an incredible 15 billion minutes each month using Wattpad. Wattpad gives people from around the world access to an audience of millions, and connects them with content they can’t find anywhere else.
+"Wattpad takes everything you love about storytelling, and turns it into a social, on-the-go experience. The result is a one-of-a-kind adventure in creation and discovery of stories. Today, the global Wattpad community is made up of more than 65 million people. We’re proudly based in Toronto, Canada, but Wattpad stories transcend borders, interests, and language."
 
-Today, the global Wattpad community is made up of more than 65 million people. The company based in Toronto, Canada, but Wattpad stories transcend borders, interests, and language.
+"In a world of 7-second attention spans, people everywhere still long to be immersed in content that matters to them. The Wattpad community collectively spends an incredible 15 billion minutes each month using Wattpad. Wattpad gives people from around the world access to an audience of millions, and connects them with content they can’t find anywhere else."
+[*Wattpad.com*](https://www.wattpad.com/about/)
+
+
 
 ## Project Team:
 * Rupali Mayekar
@@ -55,7 +58,7 @@ Initially the data that we recieved from the API seemed limited, did not have st
 The first step was to take all the csv files, one from each day we pulled data, plus the data filtered for "new", and consolidate them into one csv. Next, all duplicates were removed. This data was then prepped for visualization by removing blanks and 'NaN' values.
 
 ## Creating the plots
-We attempted to create the following plots:
+We created the following plots with the available data:
 
 ### Q1 - Mean story popularity by category by read count, vote count, comment count?
 
@@ -73,7 +76,7 @@ Since our initial data did not have stories in different categories, we looked a
 
 ![tag_distribution_pie](Images/tag_distribution_pie.png)
 
-#### Story populaarity by Tags
+#### Story popularity by Tags
 We gathered the readCount (how many times a story was read), commentCount (How many comments a story got) and voteCount (How many votes a story got) for all the stories divided by categories as well as tags. The results showed that in both scenarios, Romace/Love and Fanfiction were the most popular types of stories. Here is one of the analysis:
 
 ![popularity_tags_by_votes](Images/popularity_tags_by_votes.png)
@@ -86,9 +89,9 @@ Provides insight into number of stories per year since Wattpad was launched
 
 ### Q3 - Average time to finish a story? Search for completed stories, take difference between modify and create date.
 
-* Average days to complete story post is 244 days
-* Average number of chapters in a story is 12
-* Average number of words in a story is 75,265
+* Average days to complete story post is 167 days
+* Average number of chapters in a story is 19 chapters
+* Average number of words in a story is 59,780 words
 
 ### Q4 - Average number of parts per story (for completed stories)?
 
